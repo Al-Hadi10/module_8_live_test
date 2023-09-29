@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatelessWidget {
-  final List<String> items = List.generate(10, (index) => 'Item $index');
+  final List<String> items = List.generate(10, (index) => 'Page $index');
   final String imageUrl = 'https://via.placeholder.com/150';
 
   @override
